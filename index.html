@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kaperkar's Constant</title>
+ <link rel="stylesheet" type="text/css" href="cliff.css">
+</head>
+<body>
+<body class="bg-dark">
+  <div class="content">
+    <h1>Kaprekar's Constant::6174</h1>
+    <p>Please enter any four-digit number --whose digits are not all identical--<br>
+    <em>The subtracted differences between the 2 numbers will eventually reach</em><br><strong> 6174.</strong></p>
+    <input type="text" maxlength="4"id="userInput" placeholder="Enter a four-unique-digit number...">
+    <p id="buttons">
+      <button id="kButton">Compute!</button>
+      <button id="clear" onclick="Clear()">Clear!</button>
+    </p>
+    <p class="msg">After computation, result will display the number of times it took to get the constant.</p>
+    <div class="output"></div>
+    <p id="result">It took <span id="steps"></span> steps to reach Kaprekar's constant.</p>
+  </div>
+  <script type="text/javascript" src="cliff.js"></script>
+</body>
+</html>
